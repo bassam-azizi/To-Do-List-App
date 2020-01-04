@@ -20,3 +20,15 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 40px;
 }
+
+.itemAdded {
+  font-family: "Courier New", Courier, monospace;
+  margin: 20px;
+  border: 1px red;
+  list-style-type: none;
+}
+.deleteItem {
+  margin: 5px;
+  color: red;
+  border-radius: 4px;
+}
