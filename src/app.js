@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./app.css";
 
 class App extends Component {
   constructor(props) {
@@ -8,12 +9,14 @@ class App extends Component {
       list: []
     };
   }
+
   updateItems(key, value) {
     // update React State
     this.setState({
       [key]: value
     });
   }
+
   addItems() {
     // create the new item with a unique id
     const newItem = {
@@ -40,7 +43,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <h2>Add items here..</h2>
+        <h2 className="headerTitle">Add items here..</h2>
         <input
           className="appInput"
           type="text"
